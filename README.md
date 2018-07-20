@@ -230,7 +230,6 @@ The following chapter describes how we have technically implemented such user st
 ## Clean up
   
   ```bash
-  oc delete --force --grace-period=0 all --all
-  oc delete pvc/m2-data
+  sb clean
   ``` 
 
